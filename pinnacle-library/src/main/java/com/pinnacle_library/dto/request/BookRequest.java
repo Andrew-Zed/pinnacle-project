@@ -15,7 +15,7 @@ public class BookRequest {
     @NotBlank(message = "Author is required")
     private String author;
 
-    @Column(nullable = false, unique = true, length = 15)
+    @Column(nullable = false, unique = true, length = 50)
     @NotBlank(message = "ISBN is required")
     private String isbn;
 
